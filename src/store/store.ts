@@ -4,7 +4,7 @@ import {
   useSelector,
   type TypedUseSelectorHook,
 } from "react-redux";
-import todosReducer from "./features/todos/todosSlice";
+import todosReducer from "./todosSlice";
 
 export const store = configureStore({
   reducer: {

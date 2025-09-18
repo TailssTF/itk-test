@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { useAppDispatch } from "../../store";
-import { addTodo } from "./todosSlice";
+import { useAppDispatch } from "../../store/store";
+import { addTodo } from "../../store/todosSlice";
 
 export default function TodoForm() {
   const dispatch = useAppDispatch();

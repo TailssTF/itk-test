@@ -1,6 +1,6 @@
-import { useAppDispatch } from "../../store";
-import { toggleCompleted, deleteTodo } from "./todosSlice";
-import type { Todo } from "./todosSlice";
+import { useAppDispatch } from "../../store/store";
+import { toggleCompleted, deleteTodo } from "../../store/todosSlice";
+import type { Todo } from "../../store/todosSlice";
 
 export default function TodoItem({ todo }: { todo: Todo }) {
   const dispatch = useAppDispatch();

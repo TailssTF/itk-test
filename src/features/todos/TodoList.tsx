@@ -1,6 +1,6 @@
-import { useAppSelector } from "../../store";
+import { useAppSelector } from "../../store/store";
 import TodoItem from "./TodoItem";
-import type { Todo } from "./todosSlice";
+import type { Todo } from "../../store/todosSlice";
 import { useState } from "react";
 
 const FILTER_MAP = {
